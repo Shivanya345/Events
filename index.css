@@ -1,0 +1,374 @@
+body{
+    background-color: #000
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+    background-color: #000;
+}
+
+.header img{
+    width: 90%;
+}
+
+.row{
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+
+    .row{
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        width: 18em;
+        margin: auto;
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
+
+    .eventlogo{
+        width: 8em;
+        border-radius: 1.3em;
+    } 
+
+    .description{
+        padding: 1em;
+        height: auto;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #accelero {
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659249352/MindSpark/acceleromd_xmqgtl.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #amuzia{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659251574/MindSpark/amuziamd_slrc6b.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #codifica{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659252229/MindSpark/codificamd_hl46ru.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #dynamus{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659252885/MindSpark/dynamusmd_ejfadb.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #illuminati{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659253368/MindSpark/illuminatimd_q9zfxm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #ingenia{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659253978/MindSpark/ingeniamg_mamph0.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #interpreta{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659254305/MindSpark/interpretamd_cl1gmp.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #logica{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659254623/MindSpark/logicamd_gs6ncf.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #robotica{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255218/MindSpark/roboticamd_pf2qvm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #structura{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255571/MindSpark/structuramd_m22idq.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #substantia{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255741/MindSpark/substantiamd_kcbbip.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #voltus{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255930/MindSpark/voltusmd_lxu7tr.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+
+@media (min-width: 576px) { 
+    
+    .row{
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .eventlogo{
+        width: 8em;
+        border-radius: 1.3em;
+    } 
+
+    .description{
+        padding: 1em;
+        height: auto;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #accelero {
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659249352/MindSpark/acceleromd_xmqgtl.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #amuzia{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659251574/MindSpark/amuziamd_slrc6b.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #codifica{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659252229/MindSpark/codificamd_hl46ru.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #dynamus{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659252885/MindSpark/dynamusmd_ejfadb.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #illuminati{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659253368/MindSpark/illuminatimd_q9zfxm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #ingenia{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659253978/MindSpark/ingeniamg_mamph0.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #interpreta{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659254305/MindSpark/interpretamd_cl1gmp.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #logica{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659254623/MindSpark/logicamd_gs6ncf.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #robotica{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255218/MindSpark/roboticamd_pf2qvm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #structura{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255571/MindSpark/structuramd_m22idq.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #substantia{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255741/MindSpark/substantiamd_kcbbip.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #voltus{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255930/MindSpark/voltusmd_lxu7tr.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .row{
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .eventlogo{
+        width: 10em;
+        border-radius: 1.6em;
+    } 
+
+    .description{
+        padding: 2em;
+        height: auto;
+        text-align: center;
+    }
+
+    
+
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .row{
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .eventlogo{
+    width: 10em;
+    border-radius: 1.6em;
+    } 
+
+
+    .description{
+        padding: 15%;
+        height: 12em;
+        text-align: center;
+    }
+
+    #accelero{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659247952/MindSpark/accelerol_y0354g.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+
+    #amuzia{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659251574/MindSpark/amuzial_vxndjg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #codifica{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659252155/MindSpark/codificalg_wgypbr.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #dynamus{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659252883/MindSpark/dynamuslg_oujhp4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #illuminati{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659253368/MindSpark/illuminatilg_z7f4zx.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #ingenia{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659253976/MindSpark/ingenialg_fstu12.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #interpreta{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659254304/MindSpark/interpretalg_hcafko.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #logica{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659254623/MindSpark/logicalg_v7cgef.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #robotica{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255217/MindSpark/roboticalg_mfs1o8.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #structura{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255569/MindSpark/structuralg_wocseg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #substantia{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255741/MindSpark/substantialg_pokmsf.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #voltus{
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659255931/MindSpark/voltuslg_pnctlb.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .row{
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .eventlogo{
+    width: 12em;
+    border-radius: 2em;
+    }
+
+    .description{
+        padding: 15%;
+        height: 14em;
+        text-align: center;
+        text-shadow: 0px 2px 3px black;
+    }
+
+}

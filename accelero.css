@@ -1,0 +1,184 @@
+body{
+    background-color: #000
+}
+
+.header {
+    text-align: center;
+    background-color: #000;
+}
+
+.header img{
+    width: 90%;
+}
+
+.row{
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+
+    .row{
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        width: 18em;
+        margin: auto;
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
+
+    .eventlogo{
+        width: 8em;
+        border-radius: 1.3em;
+    } 
+
+    .description{
+        padding: 1em;
+        height: auto;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #takeoff {
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659384433/MindSpark/takeoff_tnatnm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #contraption {
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659384903/MindSpark/contraption_kqxy0s.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+
+@media (min-width: 576px) { 
+    
+    .row{
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .eventlogo{
+        width: 8em;
+        border-radius: 1.3em;
+    } 
+
+    .description{
+        padding: 1em;
+        height: auto;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #takeoff {
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659385192/MindSpark/takeoffmd_fkpzcn.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #contraption {
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659385581/MindSpark/contraptionmd_g2obca.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .row{
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .eventlogo{
+        width: 10em;
+        border-radius: 1.6em;
+    } 
+
+    .description{
+        padding: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    
+
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .row{
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .eventlogo{
+    width: 10em;
+    border-radius: 1.6em;
+    } 
+
+
+    .description{
+        padding: auto;
+        padding-top: 5em;
+        height: 12em;
+        text-align: center;
+    }
+
+    #takeoff {
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659385196/MindSpark/takeofflg_j82qof.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #contraption {
+        background-image: url(https://res.cloudinary.com/wizeric/image/upload/v1659385580/MindSpark/contraptionlg_yo8j35.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }    
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .row{
+        height: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .eventlogo{
+    width: 12em;
+    border-radius: 2em;
+    }
+
+    .description{
+        padding: auto;
+        height: 14em;
+        text-align: center;
+        text-shadow: 0px 2px 3px black;
+    }
+
+}
